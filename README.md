@@ -57,6 +57,9 @@ knit        : slidify::knit2slides
 ```
 
 #### To display images in your slides 
->1. Put your .png/.jpg files in assets/img
+1. Put your .png/.jpg files in assets/img then include the following (i.e)
 
->2. <img src=assets/img/image.png style="width: 400px">
+```r
+## Machine Learning (Machine Learning Slide)
+<img src=assets/img/image.png style="width: 400px">  (Image)
+```
