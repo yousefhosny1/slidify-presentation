@@ -20,14 +20,13 @@ knit        : slidify::knit2slides
 --- .class #id 
 
 ## Data Preprocessing
-* Removed attributes due to alot of missing values
+<b> Removed attributes due to alot of missing values </b>
  - MJob (Mother Job) (40% Missing Value)
  - FJob (Father Job) (35% Missing Value)
 
 <b>Feature Selection according to heatmap</b>
 
 <img src=assets/img/heatmap.png style="width: 400px"> <img src=assets/img/correlated.png style="width: 400px"> 
-
 
 --- .class #id
 ## Machine Learning
