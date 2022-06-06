@@ -9,7 +9,7 @@ install_github('ramnathv/slidifyLibraries')
 library(slidify)
 ```
 
-#### Run the following the display the presentation slides
+#### Run the following to display the presentation slides
 ```r
 slidify('index.Rmd')
 browseURL('index.html')
