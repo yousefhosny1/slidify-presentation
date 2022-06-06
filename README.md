@@ -1,6 +1,6 @@
 ## Installation Guide
 
-Run the following to install slidify
+#### Run the following to install slidify
 ```r
 install.packages("devtools")
 library(devtools)
@@ -9,13 +9,13 @@ install_github('ramnathv/slidifyLibraries')
 library(slidify)
 ```
 
-Run the following the display the presentation slides
+#### Run the following the display the presentation slides
 ```r
 slidify('index.Rmd')
 browseURL('index.html')
 ```
 
-Modify your slides in 'index.Rmd'
+#### Modify your slides in 'index.Rmd'
 ```r
 ---
 title       : Student Performance Prediction (Shiny App)
@@ -55,3 +55,8 @@ knit        : slidify::knit2slides
 --- .class #id
 ## Shiny App UI
 ```
+
+#### To display images in your slides 
+>1. Put your .png/.jpg files in assets/img
+
+>2. <img src=assets/img/image.png style="width: 400px">
