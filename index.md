@@ -20,7 +20,7 @@ knit        : slidify::knit2slides
 --- .class #id 
 
 ## Data Preprocessing
-<b> Removed attributes due to alot of missing values </b>
+* Removed attributes due to alot of missing values
  - MJob (Mother Job) (40% Missing Value)
  - FJob (Father Job) (35% Missing Value)
 
@@ -28,10 +28,19 @@ knit        : slidify::knit2slides
 
 <img src=assets/img/heatmap.png style="width: 400px"> <img src=assets/img/correlated.png style="width: 400px"> 
 
+
 --- .class #id
-## Machine Learning
+## Machine Learning -Linear Regression Model
 
 
+# Performance of Training Set
+MSE:  2.505773 MAE:  0.9221254  RMSE:  1.582963 R2 0.8320791
+
+# Performance of Training Set
+MSE:  2.211841 MAE:  0.9043607  RMSE:  1.487226 R2 0.8320791
+
+# Scatter plot of Training and Testing set
+<img src=assets/img/Rplot.png style="width: 450px"> <img src=assets/img/Rplot01.png style="width: 450px"> 
 
 --- .class #id
 ## Shiny App UI
